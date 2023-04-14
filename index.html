@@ -1,36 +1,44 @@
 <!DOCTYPE html>
 
 <html lang="es">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width"
-        <title>Hola mundo</title>
-        <link rel="stylesheet" href="css/estilos.css"/>
-        <link rel="stylesheet" href="css/reset.css">
-    </head>
+    
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width"
+            <title></title>
+            <link rel="stylesheet" href="css/estilos.css"/>
+            <link rel="stylesheet" href="css/reset.css">
+        </head>
 
-    <body>
-        <div class="caja">
+        <body>
             <header>
-                <div id="logo">
-                    
+                <div class="logo">
+                    <img src="img/Vector.png" alt="logo"/>
                 </div>
-             </header>
-            <main>
+            </header>
+
+            <section>
                 <input type="text" id="texto" class="input-texto" placeholder="Ingrese el texto aqui" required>
-                <h2>Solo letras minúsculas y sin acentos</h2>
-                <input type="submit" value="encriptar" class="encriptar">
-                <input type="submit" value="desencriptar" class="desencriptar">
-        </div>
+                <h2 id="comentario" class="comentario-padron">!Solo letras minúsculas y sin acentos</h2>
+                <div class="boton">
+                    <input id="encriptar" class="buton" type="submit" value="Encriptar" class="encriptar">
+                    <input id="desencriptar" class="buton" type="submit" value="Desencriptar" class="desencriptar">
+                </div>
+            </section>
 
-            <div class="caja2">
-                <h4>Ningún mensaje fue encontrado</h4>
-                <h5>Ingrese el texto que desees encriptar o desencriptar</h5>
-                <input type="submit" value="copiar" class="copiar">
-            </div>
-        </main>
-        <footer>
-
-        </footer>
-    </body>
+            
+                <div class="marco2">
+                    <img class="muneco" src="img/Muñeco.png" alt="Muñeco"/>
+                    <div class="caja2">
+                        <p class="texto1">Ningún mensaje fue encontrado<p>
+                        <p class="texto2">Ingrese el texto que desees encriptar o desencriptar</p>
+                        <!-- <input type="submit" value="copiar" class="copiar"> -->
+                    </div>
+                </div>
+                
+            <footer>
+                <p>Todos los derechos reservador by Harvey Valencia; desarrollado para el programa para Oracle ONE G5</p>
+            </footer>
+        </body>
+    
 </html>
